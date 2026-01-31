@@ -39,11 +39,6 @@ article {
     padding: 8px;
 }
 
-.socialmedia a {
-    text-decoration: none;
-    font-size: 0;
-}
-
 div.hero {
     position: relative;
 }
@@ -88,6 +83,7 @@ div.hero {
 footer p {
     color: var(--accent2-color);
     font-weight: 700;
+    margin: 0;
 }
 
 footer nav img {
@@ -126,9 +122,9 @@ footer nav img {
 }
 
 header {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto 1fr;
     align-items: center;
-    justify-content: space-between;
 }
 
 header img {
@@ -153,10 +149,6 @@ footer {
     justify-content: space-between;
 }
 
-footer p {
-    margin: 0;
-}
-
 .socialmedia {
     display: flex;
     gap: 1rem;
@@ -164,4 +156,5 @@ footer p {
 
 .socialmedia a {
     font-size: 0;
+    text-decoration: none;
 }
