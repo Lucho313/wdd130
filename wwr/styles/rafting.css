@@ -55,12 +55,6 @@ div.hero {
     border-radius: 10px;
 }
 
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
 .hero article {
     position: absolute;
     top: -10px;
@@ -92,35 +86,6 @@ footer nav img {
     margin-right: 1rem;
 }
 
-.history-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
-    gap: 1rem;
-}
-
-.history-grid img {
-    width: 100%;
-}
-
-.adventure-gallery {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 1rem;
-}
-
-.adventure-gallery figure {
-    text-align: center;
-}
-
-.adventure-gallery img {
-    width: 100%;
-    height: 150px;
-    /* pongo todas del mismo alto */
-    object-fit: cover;
-    border-radius: 8px;
-}
-
 header {
     display: grid;
     grid-template-columns: auto 1fr;
@@ -147,16 +112,4 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.socialmedia {
-    display: flex;
-    gap: 1rem;
-}
-
-.socialmedia a {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    text-decoration: none;
 }
